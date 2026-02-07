@@ -1,4 +1,7 @@
 #!/usr/bin/env perl
+# For portability: this project uses only traditional core Perl
+# without modern features or CPAN modules. All code must work
+# with any standard Perl installation.
 
 use strict;
 use warnings;

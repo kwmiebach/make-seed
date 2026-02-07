@@ -1,0 +1,14 @@
+services:
+  service-a:
+    image: cgr.dev/chainguard/wolfi-base
+    command: sleep infinity
+    network_mode: host
+    volumes:
+      - ./data:/data
+
+  service-b:
+    image: cgr.dev/chainguard/wolfi-base
+    command: sleep infinity
+    network_mode: host
+    volumes:
+      - ./data:/data

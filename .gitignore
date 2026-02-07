@@ -1,0 +1,26 @@
+# Environment files - NEVER commit actual secrets
+.env
+
+# Keep the template
+!.env-tpl
+
+# Build artifacts
+dist/
+build/
+*.pyc
+__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
